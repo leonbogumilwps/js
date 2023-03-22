@@ -84,7 +84,7 @@ document.querySelector("#output").value = error;
      - Contains all integers up to `9_007_199_254_740_992` (9 quadrillion, 9 Billiarden)
   4. `bigint` (arbitrary precision integer)
      - `123n`
-     - Supports the same operators as double, except `>>>`
+     - Supports the same operators as number, except `>>>`
   5. `string` (UTF-16)
      - `"Ain't no sunshine"`
      - `'The cow says: "Moo"'`
